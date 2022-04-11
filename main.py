@@ -26,17 +26,6 @@ scopes = ["https://www.googleapis.com/auth/youtube.force-ssl"]
 #TEXTO
 def PonerTexto():
     os.system("cls")                                                
-    print("                                                         ")
-    print(" ________           __                          __       ")
-    print("/        |         /  |                        /  |      ")
-    print("$$$$$$$$/______   _$$ |_    __    __   _______ $$ |   __ ")
-    print("   $$ | /      \ / $$   |  /  |  /  | /       |$$ |  /  |")
-    print("   $$ | $$$$$$  |$$$$$$/   $$ |  $$ |/$$$$$$$/ $$ |_/$$/ ")
-    print("   $$ | /    $$ |  $$ | __ $$ |  $$ |$$ |      $$   $$<  ")
-    print("   $$ |/$$$$$$$ |  $$ |/  |$$ \__$$ |$$ \_____ $$$$$$  \ ")
-    print("   $$ |$$    $$ |  $$  $$/ $$    $$/ $$       |$$ | $$  |")
-    print("   $$/  $$$$$$$/    $$$$/   $$$$$$/   $$$$$$$/ $$/   $$/  API by Google Developers <3")
-    print( )
 
 #VARIABLES PREDEFINIDAS
 api_service_name = "youtube"
