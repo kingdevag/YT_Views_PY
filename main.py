@@ -13,6 +13,7 @@ from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw 
 from time import time, sleep
+from config import *
 scopes = ["https://www.googleapis.com/auth/youtube.force-ssl"]
 
 #LIBRERIAS
@@ -52,12 +53,7 @@ def main():
     os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
 
     #VARIABLES CAMBIABLES
-    client_secrets_file = "client_secret.json"
-    tiempoActualizacion = 30
-    IDVideo = "-q4TYAtsPRU"
-    tituloVideo = "Este video tiene "
-    descripcionVideo = "XD"
-    etiquetasVideo = "#Python"
+ 
 
     #OBTENER CREDENCIALES Y API
     flow = google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file(
