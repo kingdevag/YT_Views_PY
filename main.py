@@ -13,7 +13,7 @@ from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw 
 from time import time, sleep
-from config import *
+from config.config import *
 scopes = ["https://www.googleapis.com/auth/youtube.force-ssl"]
 
 #LIBRERIAS
